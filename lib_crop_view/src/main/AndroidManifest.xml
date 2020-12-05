@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ljt.lib_crop_view">
+
+    <application>
+        <activity android:name=".crop.activity.CropImageActivity" />
+    </application>
+
+</manifest>

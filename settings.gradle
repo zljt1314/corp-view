@@ -1,0 +1,3 @@
+include ':lib_crop_view'
+include ':app'
+rootProject.name = "crop_image_view"

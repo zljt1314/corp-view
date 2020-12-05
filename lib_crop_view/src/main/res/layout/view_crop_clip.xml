@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.ljt.lib_crop_view.crop.CropImageView
+        android:id="@+id/v_crop_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="matrix" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <com.ljt.lib_crop_view.crop.ClipView
+            android:id="@+id/v_clip_v"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</merge>
